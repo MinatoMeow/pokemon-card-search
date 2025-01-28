@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+.bold-text {
+  font-family: 'Chakra Petch';
+  font-weight: bold;
+}
+.reg-text {
+  font-family: 'Chakra Petch';
+}
+.container {
+  flex: auto;
+  justify-content: center;
+  height: auto;
+}
+#main-page{
+    margin-top: 3rem;
+}
+.fgcolor {
+  background-color: #799ab1;
+}
+.bgcolor {
+  background-color: #456c86;
+}
+.accent {
+  background-color: #d1d7db;
+}
+#searchbar,
+#ddown {
+
+  max-width: max-content;
+  padding: 0 0.5rem;
+}
+#search-line{
+    min-width: 450px;
+}
+#searchbar {
+    
+  margin: 1rem 0;
+}
+#poke-names {
+  border-radius: 5px;
+  padding: 0 1rem;
+}
+#ddown {
+  margin: 1rem 0;
+}
+
+.btn {
+  padding: 0.5rem 11.5rem;
+  margin-bottom: 1rem;
+  border-color: #20445c;
+  background-color: #456c86;
+}
+.btn-primary:hover {
+  background-color: #20445c;
+  border-color: #092233;
+}
+#related-cards {
+  display: flex;
+  justify-self: center;
+}
+#searchline {
+  justify-content: center;
+}
+
+#images {
+  justify-content: center;
+}
+
+.img {
+  padding: 0.5rem;
+  max-width: fit-content;
+}
+.theme-colors {
+  background-color: rgb(161, 152, 16);
+  color: #e90909;
+  border-color: black;
+}
+
+#footer {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none; /* no underline */
+}
+#github-logo-container {
+  text-align: right;
+  padding-right: 2rem;
+  padding-bottom: 0.25rem;
+}
+.col-1 #github-logo {
+  max-width: 10%;
+  min-width: 20px;
+}
+
+.readme-pg {
+  justify-content: center;
+  align-items: center;
+}
+
+.revalia-regular {
+  font-family: 'Revalia', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#link-back{
+    margin: 0;
+}
+.return {
+  font-size: 2rem;
+}
+
+#readme-title {
+  color: black;
+}
+#list-title {
+  font-size: 2.5rem;
+}
+#list {
+  font-size: 1.5rem;
+}
