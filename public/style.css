@@ -1,20 +1,17 @@
-@media(max-width: 450px) {
-  button.small-button{
+@media (max-width: 450px) {
+  button.small-button {
     padding: 0.5rem 2.5rem;
-        
   }
-  input.align{
+  input.align {
     text-align: center;
   }
-
 }
 body {
-  overflow-x: hidden;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-
 footer {
   margin-top: auto;
 }
@@ -28,35 +25,36 @@ footer {
 .reg-text {
   font-family: 'Chakra Petch';
 }
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
 .container {
   flex: auto;
   justify-content: center;
   height: auto;
 }
-#main-page{
-    margin-top: 3rem;
+#main-page {
+  margin-top: 2rem;
 }
 .fgcolor {
   background-color: #799ab1;
 }
 .bgcolor {
   background-color: #456c86;
-  
 }
 .accent {
   background-color: #d1d7db;
 }
 #searchbar,
 #ddown {
-
   max-width: max-content;
   padding: 0 0.5rem;
 }
-#search-line{
-    min-width: 450px;
+#search-line {
+  min-width: 450px;
 }
 #searchbar {
-    
   margin: 1rem 0;
 }
 #poke-names {
@@ -66,7 +64,6 @@ footer {
 #ddown {
   margin: 1rem 0;
 }
-
 .btn {
   padding: 0.5rem 11.5rem;
   margin-bottom: 1rem;
@@ -84,11 +81,9 @@ footer {
 #searchline {
   justify-content: center;
 }
-
 #images {
   justify-content: center;
 }
-
 .img {
   padding: 0.5rem;
   max-width: fit-content;
@@ -98,13 +93,11 @@ footer {
   color: #e90909;
   border-color: black;
 }
-
 #footer {
   justify-content: center;
   text-align: center;
   align-items: center;
 }
-
 a {
   color: rgb(0, 0, 0);
   text-decoration: none; /* no underline */
@@ -118,24 +111,21 @@ a {
   max-width: 10%;
   min-width: 20px;
 }
-
 .readme-pg {
   justify-content: center;
   align-items: center;
 }
-
 .revalia-regular {
   font-family: 'Revalia', serif;
   font-weight: 400;
   font-style: normal;
 }
-#link-back{
-    margin: 0;
+#link-back {
+  margin: 0;
 }
 .return {
   font-size: 2rem;
 }
-
 #readme-title {
   color: black;
 }
