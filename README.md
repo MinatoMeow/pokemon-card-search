@@ -11,6 +11,7 @@ If multiple related cards are found, they will also be shown under the search ba
 
 ## How to build locally
 Download Node.js [Here](https://nodejs.org/en/download)
+
 Download the repo and install the necessary modules using `npm i`.
 You can change the `port` to any desired open port or use the default set.
 
