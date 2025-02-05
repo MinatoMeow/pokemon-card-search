@@ -1,3 +1,22 @@
+@media(max-width: 450px) {
+  button.small-button{
+    padding: 0.5rem 2.5rem;
+        
+  }
+  input.align{
+    text-align: center;
+  }
+
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
 * {
   box-sizing: border-box;
 }
@@ -21,6 +40,7 @@
 }
 .bgcolor {
   background-color: #456c86;
+  
 }
 .accent {
   background-color: #d1d7db;
